@@ -79,6 +79,7 @@ namespace Silverwave.HabboHotel.Items
                             height = Convert.ToDouble(ToggleHeight[0]);
                         }
                         else
+                            // Replaced the "dRow[6]" with a 7 instead.
                             height = Convert.ToDouble(dRow[7]);
 
                         allowStack = Convert.ToInt32(dRow[7]) == 1;
